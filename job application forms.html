@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+<form>
+    <label for="Name">Name:</label>
+    <br>
+    <input type="text" name="Name" id="Name">
+    <br>
+    <label for="Email">Email:</label>
+    <br>
+    <input type="text" name="Email" id="Email">
+    <br>
+    <label for="Number">Phone:</label>
+    <br>
+    <input type="tel" name="Number" id="Number">
+    <br>
+    <label for="Resume">Resume:</label>
+    <br>
+    <input type="file" name="Resume" id="Resume">
+    <br>
+    <br>
+    <label for="experience">Experience(Years): </label>
+    <input type="number" name="ex" id="experience" min="0" max="58">
+    <fieldset>
+        <legend>Skill</legend>
+        <input type="checkbox" name="HTML" id="HTML">
+        <label for="HTML">HTML</label>
+        <br>
+        <input type="checkbox" name="CSS" id="CSS">
+        <label for="CSS">CSS</label>
+        <br>
+        <input type="checkbox" name="Javascript" id="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+    </fieldset>
+    <br>
+    <p><b>Highest Education</b></p>
+    <label for="HighestEducation"></label>
+    <select name="HighestEducation" id="HighestEducation">
+        <option value="HighSchool">HighSchool</option>
+        <option value="UnderGraduate">UnderGraduate</option>
+        <option value="PostGraduate">PostGraduate</option>
+        <option value="PHD">PHD</option>
+    </select>
+    <fieldset>
+        <legend>Availablity:</legend>
+
+            <div>
+                <input type="radio" name="common" id="common" value="FullTIme"/>
+                 <br>
+                <label for="ft">Full Time</label>
+                <br>
+            </div>
+
+           <div>
+                <input type="radio" name="common" id="pt" value="PartTime"/>
+                <br>
+                <label for="pt">Part Time</label>
+                 <br>
+            </div>
+    </fieldset>
+
+    <p><b>Additional Comments:</b></p>
+    <label for="textarea"></label>
+    <textarea name="Comments" id="textarea" cols="100" rows="10" placeholder="Share Your Feedback Here"></textarea>
+    <br>
+    <input type="submit" id="success" value="Submit Applicatio">
+</form>
+</body>
+</html>

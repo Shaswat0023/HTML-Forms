@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2><i>Event Registration</i></h2>
+        <label for="Name">Name:</label>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="John">
+
+        <br>
+
+        <label for="Email">Email:</label>
+        <br>
+        <input type="text" id="Email" name= "email" placeholder="xyz@example.com">
+
+        <br>
+
+        <label for="number">Phone:</label>
+        <br>
+        <input type="tel" id="number" name="number" placeholder="+91 XXXXXXXXXX">
+
+        <br>
+        <label for="occupation" name="occupation">Occupation</label>
+        <br>
+       <select name="occupation" id="occupation">
+            <option value="Student">Student</option>
+            <option value="Private Employee">Private Employee</option>
+            <option value="Government Employee">Government Employee</option>
+            <option value="Others">Others</option>
+       </select>
+       <br>
+       <br>
+       <fieldset>
+            <legend>Topics of interest</legend>
+            <label for="1">HTML</label>
+            <input type="checkbox" name="1" id="1">
+            <label for="2">CSS</label>    
+            <input type="checkbox" name="2" id="2">
+            <label for="3">JavaScript</label>
+            <input type="checkbox" name="3" id="3">
+       </fieldset>
+       <br>
+       <fieldset>
+            <legend>Comments</legend>
+            <textarea name="Comments" id="Comments" cols="40" rows="5" placeholder="Please share your feedback"></textarea>
+            <button>Register</button>
+       </fieldset>
+    </form>
+</body>
+</html>
